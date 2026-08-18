@@ -1,0 +1,46 @@
+# Python cache and byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C and Cython extensions
+*.so
+
+# Distribution and builds
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+venv_win/
+env/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Exported outputs
+Resultados_Lote_CODICE/
+*.xlsx
+*.png
+
+# Confidential experimental and sample data
+raman_tulum/
+*.txt
+*.csv
+*.dat
+*.asc
+!requirements.txt
+
